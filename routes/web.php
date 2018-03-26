@@ -12,13 +12,11 @@
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
+
     return view('index');
-=======
     return view('home.index');
 });
 
 Route::get('pricing', function () {
     return view('pricing.index');
->>>>>>> acf516417b59dee7120349c52d546a0db0cc4d77
 });
